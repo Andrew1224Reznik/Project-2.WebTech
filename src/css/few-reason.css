@@ -7,7 +7,7 @@
       rgba(246, 246, 246, 0.9)
     ),
     /* Светлый полупрозрачный градиент поверх картинки */
-      url(../img/few-reason-bg.jpg); /* Фоновое изображение секции */
+      url(../img/few-reason/few-reason-bg@2x-min.jpg); /* Фоновое изображение секции */
   background-repeat: no-repeat; /* Запрещаем повторение фоновой картинки */
   background-position: center; /* Выравниваем фон по центру */
   background-size: cover; /* Картинка растягивается, чтобы покрывать весь блок */
