@@ -1,19 +1,109 @@
-<header class="header">
+<header class="header-section">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+    <nav class="header-nav">
+      <div data-aos="fade-right" data-aos-delay="1500" class="header-logo">
+        <img
+          src="/img/Frame.png"
+          alt="WebTech logo"
+          class="header-logo-icon"
+          width="50.29"
+          height="30"
+        />
+        <a href="./index.html" class="header-logo-text">WebTech</a>
+      </div>
+      <ul class="header-menu-list">
+        <li data-aos="fade-down" data-aos-delay="100" class="header-menu-item">
+          <a href="./about.html" class="header-menu-link">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li data-aos="fade-down" data-aos-delay="300" class="header-menu-item">
+          <a href="./contact.html" class="header-menu-link">Pages</a>
+        </li>
+        <li data-aos="fade-down" data-aos-delay="600" class="header-menu-item">
+          <a href="./services.html" class="header-menu-link">Services</a>
+        </li>
+        <li data-aos="fade-down" data-aos-delay="850" class="header-menu-item">
+          <a href="./portfolio.html" class="header-menu-link">Portfolio</a>
+        </li>
+        <li data-aos="fade-down" data-aos-delay="1100" class="header-menu-item">
+          <a href="./blog.html" class="header-menu-link">Blog</a>
+        </li>
+        <li data-aos="fade-down" data-aos-delay="1250" class="header-menu-item">
+          <a
+            href="#footer-contact-us"
+            class="header-menu-link footer-link-contact-us"
+            >Contact Us</a
+          >
         </li>
       </ul>
+      <div class="header-button">
+        <svg class="button-svg" width="30" height="30">
+          <use href="./img/symbol-defs.svg#icon-th-menu"></use>
+        </svg>
+      </div>
     </nav>
+  </div>
+
+  <div class="header-mob-menu">
+    <div class="container mob-menu-container">
+      <div class="header-mob-menu-bar">
+        <div class="menu-close">
+          <svg class="icon-menu-close" width="20" height="20">
+            <use href="/img/symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </div>
+        <nav class="header-mob-menu-nav">
+          <ul class="header-mob-menu-list">
+            <li class="header-mob-menu-item">
+              <a href="./about.html" class="header-mob-menu-link current"
+                >Home</a
+              >
+            </li>
+            <li class="header-mob-menu-item">
+              <a href="./contact.html" class="header-mob-menu-link">Pages</a>
+            </li>
+            <li class="header-mob-menu-item">
+              <a href="./services.html" class="header-mob-menu-link"
+                >Services</a
+              >
+            </li>
+            <li class="header-mob-menu-item">
+              <a href="./portfolio.html" class="header-mob-menu-link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-mob-menu-item">
+              <a href="./blog.html" class="header-mob-menu-link">Blog</a>
+            </li>
+            <li class="header-mob-menu-item">
+              <a href="#footer-contact-us" class="header-mob-menu-link"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-mob-menu-soclist">
+        <a href="#" class="header-mob-menu-soclink"
+          ><svg class="mob-menu-soc-icon" width="40" height="40">
+            <use href="./img/symbol-defs.svg#facebook"></use></svg
+        ></a>
+        <a href="#" class="header-mob-menu-soclink"
+          ><svg class="workers-soc-icon" width="40" height="40">
+            <use href="./img/symbol-defs.svg#telegram"></use></svg
+        ></a>
+        <a href="#" class="header-mob-menu-soclink"
+          ><svg class="mob-menu-soc-icon" width="40" height="40">
+            <use href="./img/symbol-defs.svg#linkedin"></use></svg
+        ></a>
+        <a href="#" class="header-mob-menu-soclink"
+          ><svg class="mob-menu-soc-icon" width="40" height="40">
+            <use href="./img/symbol-defs.svg#instagram"></use></svg
+        ></a>
+        <a href="#" class="header-mob-menu-soclink"
+          ><svg class="mob-menu-soc-icon" width="40" height="40">
+            <use href="./img/symbol-defs.svg#youtube"></use></svg
+        ></a>
+      </div>
+    </div>
   </div>
 </header>
